@@ -8,6 +8,8 @@
 <p>&#8226; Wolf and Sword Services Limited. &#8226; Company number 12718675. &#8226;</p>
 <p>By using this system you agree to the <a href="https://wolfandsword.com/pp-terms">Terms of Service</a> and the <a href="https://wolfandsword.com/pp-privacy">Privacy Policy</a></p>
 <p></p>
+<p>The Property Pipeline platform and associated customisations are proprietary and have been developed by Wolf and Sword Services to provide a dedicated hosted property lead and portfolio management platform for property investors. The underlying software uses EspoCRM, an open source customer relationship manager.</p>
+<p></p>
 <p>Built on EspoCRM
                 </p>
                 <h5>Version {{version}}</h5>
