@@ -1,10 +1,13 @@
 <div class="page-header">
-    <h3>Property Pipeline: Built for property investors by Wolf and Sword Services. 2020</h3>
+    <h3>Property Pipeline: Built for property investors by Wolf and Sword Services. &copy; 2020</h3>
 </div>
 <div class="row">
     <div class="col-md-8">
         <div class="panel panel-default">
             <div class="panel-body">
+               <p>
+&#8226; Wolf and Sword Services Limited. &#8226; Company number 12718675. &#8226;
+               </p>
                <p>
 Warranty: Unless otherwise provided in an applicable Offer Description, Wolf and Sword Services 
 warrants that it will use commercially reasonable skill and care to provide the Property 
