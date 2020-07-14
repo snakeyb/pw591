@@ -5,42 +5,10 @@
     <div class="col-md-8">
         <div class="panel panel-default">
             <div class="panel-body">
-               <p>
-&#8226; Wolf and Sword Services Limited. &#8226; Company number 12718675. &#8226;
-               </p>
-               <p>
-Warranty: Unless otherwise provided in an applicable Offer Description, Wolf and Sword Services 
-warrants that it will use commercially reasonable skill and care to provide the Property 
-Pipeline Service in accordance with the Offer Description (including any applicable service 
-level agreement/objective). Upon Your prompt written notification to the Approved Source of 
-Wolf and Sword Services's possible breach of this warranty, to the extent permitted by applicable 
-law, Your sole and exclusive remedy is, at our option, either repair or replacement of the 
-Property Pipeline Service or a refund of the fees paid to Wolf and Sword Services for the period in 
-which the Property Pipeline Service did not comply, inclusive of any fees paid under an 
-applicable service level agreement/objective
-               </p>
-               <p>
-Disclaimer: Wolf and Sword Services expressly disclaims all warranties and conditions of any kind, 
-express or implied, including without limitation any warranty, condition or other implied 
-term as to merchantability, or fitness for a particular purpose or non-infringement. 
-               </p>
-               <p>
-Limitation of Liability: Except for any amounts due to Wolf and Sword Services for the Cloud Service, 
-either party’s liability for claims related to, or arising out of Your use of the Cloud Service, 
-shall not exceed, in the aggregate, the total fees attributable to the 12 month period 
-before the initial claim and paid or payable to the Approved Source under the applicable 
-Order. In no event will either party be liable for: (i) indirect, incidental, exemplary, 
-special or consequential damages; (ii) loss or corruption of data or interrupted or loss of 
-business; or (iii) loss of revenues, profits, goodwill or anticipated sales or savings. This 
-limitation of liability applies whether the claims are in warranty, contract, tort, 
-infringement, or otherwise, even if either party has been advised of the possibility of such 
-damages. Nothing in this Section limits or excludes any liability that cannot be limited or 
-excluded under applicable law. This limitation of liability is cumulative and not per 
-incident. Wolf and Sword companies are also not resposible for any decisions made by you 
-based on information provided within the Property Pipeline Service.
-                </p>
-                <p>
-Built on EspoCRM
+<p>&#8226; Wolf and Sword Services Limited. &#8226; Company number 12718675. &#8226;</p>
+<p>By using this system you agree to the <a href="https://wolfandsword.com/pp-terms">Terms of Service</a> and the <a href="https://wolfandsword.com/pp-privacy">Privacy Policy</a></p>
+<p></p>
+<p>Built on EspoCRM
                 </p>
                 <h5>Version {{version}}</h5>
                 <p>
