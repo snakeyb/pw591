@@ -8,6 +8,8 @@
 <p>&#8226; Wolf and Sword Services Limited. &#8226; Company number 12718675. &#8226;</p>
 <p>By using this system you agree to the <a href="https://wolfandsword.com/pp-terms" target="_blank">Terms of Service</a> and the <a href="https://wolfandsword.com/pp-privacy" target="_blank">Privacy Policy</a></p>
 <p></p>
+<p>For help and FAQs, click <a href="http://propertypipeline.co.uk/elementor-2030/">here</a></p>
+<p></p>
 <p>Free storage space: {{freeSpace}}GB of a total of {{totalSpace}}GB</p>
 <p></p>
 <p>For all queries including support, email <a href="mailto:service.support@wolfandsword.com">service.support@wolfandsword.com</a></p>
