@@ -54,8 +54,10 @@ DB_USER=$(php -r "\$config=include('data/config.php'); echo \$config['database']
 DB_PASS=$(php -r "\$config=include('data/config.php'); echo \$config['database']['password'];")
 DB_NAME=$(php -r "\$config=include('data/config.php'); echo \$config['database']['dbname'];")
 
+PP_HOSTNAME=$(php -r "\$config=include('data/config.php'); echo \$config['database']['dbname'];")
+
 BACKUP_NAME=$(basename $PATH_TO_ESPO)
-BACKUP_ARCHIVE_NAME="databackuptmp.tar.gz"
+BACKUP_ARCHIVE_NAME="$HOSTNAME$(date +'%Y-%m-%d_%H%M%S'+'$HOSTNAME').tar.gz"
 
 cd $BACKUP_PATH
 mkdir $BACKUP_NAME
@@ -79,7 +81,7 @@ tar -czf "db.tar.gz" "db.sql"
 rm "db.sql"
 
 # Archive files
-tar -czf "files.tar.gz" -C $PATH_TO_ESPO .
+#tar -czf "files.tar.gz" -C $PATH_TO_ESPO .
 
 # Create a full backup archive
 cd ..
