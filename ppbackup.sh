@@ -57,7 +57,7 @@ DB_NAME=$(php -r "\$config=include('data/config.php'); echo \$config['database']
 PP_HOSTNAME=$(php -r "\$config=include('data/config.php'); echo \$config['database']['dbname'];")
 
 BACKUP_NAME=$(basename $PATH_TO_ESPO)
-BACKUP_ARCHIVE_NAME="$HOSTNAME$(date +'%Y-%m-%d_%H%M%S').tar.gz"
+BACKUP_ARCHIVE_NAME="$HOSTNAME-SQLbackup.tar.gz"
 
 cd $BACKUP_PATH
 mkdir $BACKUP_NAME
