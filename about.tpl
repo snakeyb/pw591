@@ -6,15 +6,19 @@
         <div class="panel panel-default">
             <div class="panel-body">
 <p>&#8226; Wolf and Sword Services Limited. &#8226; Company number 12718675. &#8226;</p>
-<p>By using this system you agree to the <a href="https://wolfandsword.com/pp-terms" target="_blank">Terms of Service</a> and the <a href="https://wolfandsword.com/pp-privacy" target="_blank">Privacy Policy</a></p>
+<p>By using this system you agree to the <a href="https://lm.propertypipeline.co.uk/pp-terms" target="_blank">Terms of Service</a> and the <a href="https://lm.propertypipeline.co.uk/pp-privacy" target="_blank">Privacy Policy</a></p>
 <p></p>
-<p>For help and FAQs, click <a href="http://propertypipeline.co.uk/elementor-2030/">here</a></p>
+<p>For help and FAQs, see the Help section <a href="https://propertypipeline.co.uk">here</a></p>
 <p></p>
-<p>Free storage space: {{freeSpace}}GB of a total of {{totalSpace}}GB</p>
+<p>To manage your subscription click <a href="https://wolfandsword.kartra.com/self_billing/DRswbhAOgM9c">here</a> You will need to use the email address used on sign-up.</p>
 <p></p>
-<p>For all queries including support, email <a href="mailto:service.support@wolfandsword.com">service.support@wolfandsword.com</a></p>
+<p>Free storage space: {{freeSpace}}GB of a total of {{totalSpace}}GB. Contact Support to request more storage if required.</p>
+<p></p>
+<p>For all queries including support, email <a href="mailto:service.support@propertypipeline.co.uk">service.support@propertypipeline.co.uk/a></p>
 <p></p>
 <p>The Property Pipeline platform and associated customisations are proprietary and have been developed by Wolf and Sword Services to provide a dedicated hosted property lead and portfolio management platform for property investors. The underlying software uses EspoCRM, an open source customer relationship manager.</p>
+<p></p>
+<p>Release {{ppVersion}}</p>
 <p></p>
 <p>Built on EspoCRM
                 </p>
