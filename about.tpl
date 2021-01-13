@@ -14,7 +14,7 @@
 <p></p>
 <p>Free storage space: {{freeSpace}}GB of a total of {{totalSpace}}GB. Contact Support to request more storage if required.</p>
 <p></p>
-<p>For all queries including support, email <a href="mailto:service.support@propertypipeline.co.uk">service.support@propertypipeline.co.uk/a></p>
+<p>For all queries including support, email <a href="mailto:service.support@propertypipeline.co.uk">service.support@propertypipeline.co.uk</a></p>
 <p></p>
 <p>The Property Pipeline platform and associated customisations are proprietary and have been developed by Wolf and Sword Services to provide a dedicated hosted property lead and portfolio management platform for property investors. The underlying software uses EspoCRM, an open source customer relationship manager.</p>
 <p></p>
