@@ -37,6 +37,7 @@ define('views/about', 'view', function (Dep) {
         data: function () {
             return {
                 version: this.getConfig().get('version'),
+                ppVersion: this.getConfig().get('ppVersion'),
                 freeSpace: this.getConfig().get('freeSpace'),
                 totalSpace: this.getConfig().get('totalSpace')
             };
