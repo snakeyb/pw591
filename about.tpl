@@ -1,5 +1,5 @@
 <div class="page-header">
-    <h3>Property Pipeline: Built for property investors by Wolf and Sword Services. &copy; 2020</h3>
+    <h3>Property Pipeline: Built for property investors by Wolf and Sword Services. &copy; 2020-2022</h3>
 </div>
 <div class="row">
     <div class="col-md-8">
@@ -27,7 +27,7 @@
                 </p>
                 <h5>Version {{version}}</h5>
                 <p>
-                    Copyright &copy; 2014-2020 EspoCRM: Yuri Kuznetsov, Taras Machyshyn, Oleksiy Avramenko.
+                    Copyright &copy; 2014-2021 EspoCRM: Yuri Kuznetsov, Taras Machyshyn, Oleksiy Avramenko.
                     <br>
                     Website: <a href="https://www.espocrm.com" target="_BLANK">www.espocrm.com</a>.
                 </p>
