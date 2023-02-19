@@ -71,7 +71,7 @@ if [ -z "$DB_NAME" ]; then
     exit 1
 fi
 
-BACKUP_NAME=$(basename "$PATH_TO_ESPO")
+BACKUP_NAME="$4"
 BACKUP_ARCHIVE_NAME="$3"
 
 cd "$BACKUP_PATH"
