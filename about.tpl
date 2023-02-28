@@ -9,7 +9,7 @@
 <p>By using this system you agree to the <a href="https://lm.propertypipeline.co.uk/pp-terms" target="_blank">Terms of Service</a> and the <a href="https://lm.propertypipeline.co.uk/pp-privacy" target="_blank">Privacy Policy</a></p>
 <p></p>
 <p><h3>Help</h3></p>
-<p>For help and FAQs, see the Help section <a href="https://wolfandsword.kartra.com/portal/nK48O1cTRg9c/index">here</a></p>
+<p>For help and FAQs, see the Help section <a href="https://wolfandsword.kartra.com/portal/nK48O1cTRg9c/index" target="_blank">here</a></p>
 <p></p>
 <p><h3>Support</h3></p>
 <p>For all queries including support, email <a href="mailto:service.support@propertypipeline.co.uk">service.support@propertypipeline.co.uk</a></p>
