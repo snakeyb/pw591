@@ -1,5 +1,5 @@
 <div class="page-header">
-    <h3>Property Pipeline: Built for property investors by Wolf and Sword Services. &copy; 2020-2022</h3>
+    <h3>Property Pipeline: Built for property investors by Wolf and Sword Services. &copy; 2020-2023</h3>
 </div>
 <div class="row">
     <div class="col-md-8">
