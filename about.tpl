@@ -15,7 +15,7 @@
 <p>For all queries including support, email <a href="mailto:service.support@propertypipeline.co.uk">service.support@propertypipeline.co.uk</a></p>
 <p></p>
 <p><h3>Manage/cancel subscription</h3></p>
-<p>To manage your subscription, including downloading copy invoices click <a href="https://wolfandsword.kartra.com/self_billing/DRswbhAOgM9c">here</a> You will need to use the email address used on sign-up.</p>
+<p>To manage your subscription, including downloading copy invoices click <a href="https://wolfandsword.kartra.com/self_billing/DRswbhAOgM9c">here</a> You will need to use the email address used on sign-up, and the order ID from any of the monthly invoice emails from our billing platform called Kartra.</p>
 <p></p>
 <p><h3>System info</h3></p>
 <p>Free storage space: {{freeSpace}}GB of a total of {{totalSpace}}GB. Contact Support to request more storage if required.</p>
