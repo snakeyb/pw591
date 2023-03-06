@@ -11,6 +11,9 @@
 <p><h3>Help</h3></p>
 <p>For help and FAQs, see the Help section <a href="https://wolfandsword.kartra.com/portal/nK48O1cTRg9c/index" target="_blank">here</a></p>
 <p></p>
+<p><h3>Resources and Money Off Offers!</h3></p>
+<p>For a selection of the resources we use day to day, and some money off offers for them, click <a href="https://lm.wolfandsword.com/ppresourcesoffers" target="_blank">here</a></p>
+<p></p>
 <p><h3>Support</h3></p>
 <p>For all queries including support, email <a href="mailto:service.support@propertypipeline.co.uk">service.support@propertypipeline.co.uk</a></p>
 <p></p>
