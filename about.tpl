@@ -20,7 +20,7 @@
 <p><h3>Manage Subscription</h3></p>
 <p>To manage your subscription, including downloading copy invoices click <a href="https://wolfandsword.kartra.com/self_billing/DRswbhAOgM9c" target="_blank">here</a> You will need to use the email address used on sign-up, and the order ID from any of the monthly invoice emails from our billing platform called Kartra.</p>
 <p></p>
-<p><h3>Cancel subscription</h3></p>
+<p><h3>Cancel Subscription</h3></p>
 <p>Click <a href="https://lm.wolfandsword.com/crmfeedback1" target="_blank">here</a> if you'd like to cancel your subscription</p>
 <p></p>
 <p><h3>System info</h3></p>
