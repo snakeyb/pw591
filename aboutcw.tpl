@@ -16,8 +16,14 @@
 <p><h3>Support</h3></p>
 <p>For all queries including support, email <a href="mailto:service.support@cogito.wspp.co.uk">service.support@cogito.wspp.co.uk</a></p>
 <p></p>
-<p><h3>Manage/cancel subscription</h3></p>
-<p>To manage your subscription, including downloading copy invoices click <a href="https://wolfandsword.kartra.com/self_billing/DRswbhAOgM9c">here</a> You will need to use the email address used on sign-up.</p>
+<p><h3>Manage Subscription</h3></p>
+<p>To manage your subscription, including downloading copy invoices click <a href="https://wolfandsword.kartra.com/self_billing/DRswbhAOgM9c" target="_blank">here</a> You will need to use the email address used on sign-up, and the order ID from any of the monthly invoice emails from our billing platform called Kartra.</p>
+<p></p>
+<p><h3>Cancel Subscription</h3></p>
+<p>Click <a href="https://lm.wolfandsword.com/crmfeedback1" target="_blank">here</a> if you'd like to cancel your subscription</p>
+<p></p>
+<p><h3>Resources and Money Off Offers!</h3></p>
+<p>For a selection of the resources we use day to day, and some money off offers for them, click <a href="https://lm.wolfandsword.com/ppresourcesoffers" target="_blank">here</a></p>
 <p></p>
 <p><h3>System info</h3></p>
 <p>Free storage space: {{freeSpace}}GB of a total of {{totalSpace}}GB. Contact Support to request more storage if required.</p>
