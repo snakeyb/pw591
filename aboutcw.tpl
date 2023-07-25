@@ -23,7 +23,7 @@
 <p>Click <a href="https://lm.wolfandsword.com/crmfeedback1" target="_blank">here</a> if you'd like to cancel your subscription</p>
 <p></p>
 <p><h3>Resources and Money Off Offers!</h3></p>
-<p>For a selection of the resources we use day to day, and some money off offers for them, click <a href="https://lm.wolfandsword.com/ppresourcesoffers" target="_blank">here</a></p>
+<p>For a selection of the resources we use day to day, and some money off offers for them, click <a href="https://wolfandsword.kartra.com/page/0DR720" target="_blank">here</a></p>
 <p></p>
 <p><h3>System info</h3></p>
 <p>Free storage space: {{freeSpace}}GB of a total of {{totalSpace}}GB. Contact Support to request more storage if required.</p>
