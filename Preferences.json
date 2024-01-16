@@ -1,0 +1,10 @@
+{
+    "fields": {
+       "doNotFillAssignedUserIfNotRequired": {
+            "type": "bool",
+            "tooltip": true,
+            "default": false
+        }
+    },
+    "noDeletedAttribute": true
+}
