@@ -33,9 +33,10 @@ class AboutView extends View {
     template = 'about'
 
     data() {
+        const customText = 'PropertyPipeline by Wolf and Sword Services Limited.\n\n. Test<br>Test<br><p>And a p</p><a href="https://propertypipeline.co.uk">A link</a>'; // Your custom text
         return {
             version: this.version,
-            text: this.getHelper().transformMarkdownText(this.text)
+            text: this.getHelper().transformMarkdownText(customText + this.text)
         };
     }
 
