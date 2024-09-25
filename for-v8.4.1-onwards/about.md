@@ -1,3 +1,34 @@
+### Property Pipeline: Built for property investors by Wolf and Sword Services. © 2020-2023
+
+• Wolf and Sword Services Limited. • Company number 12718675. •
+
+By using this system you agree to the [Terms of Service](https://lm.propertypipeline.co.uk/pp-terms) and the [Privacy Policy](https://lm.propertypipeline.co.uk/pp-privacy).
+
+### Help
+
+For help and FAQs, see the Help section [here](https://wolfandsword.kartra.com/portal/nK48O1cTRg9c/index).
+
+### Resources and Money Off Offers!
+
+For a selection of the resources we use day to day, and some money off offers for them, click [here](https://lm.wolfandsword.com/ppresourcesoffers).
+
+### Support
+
+For all queries including support, email [service.support@propertypipeline.co.uk](mailto:service.support@propertypipeline.co.uk).
+
+### Manage Subscription
+
+To manage your subscription, including downloading copy invoices click [here](https://wolfandsword.kartra.com/self_billing/DRswbhAOgM9c). You will need to use the email address used on sign-up, and the order ID from any of the monthly invoice emails from our billing platform called Kartra.
+
+### Cancel Subscription
+
+Click [here](https://lm.wolfandsword.com/crmfeedback1) if you'd like to cancel your subscription.
+
+The Property Pipeline platform and associated customisations are proprietary and have been developed by Wolf and Sword Services to provide a dedicated hosted property lead and portfolio management platform for property investors. The underlying software uses EspoCRM, an open source customer relationship manager.
+
+Built on EspoCRM
+
+
 ## EspoCRM – Open Source CRM application
 
 www.espocrm.com
