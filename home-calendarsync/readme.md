@@ -1,8 +1,7 @@
-Add the following to custom/Espo/Custom/ClientDefs/<EntityName>.json
-
+Add the following to c/var/www/html/custom/Espo/Custom/Resources/metadata/clientDefs# nano CalendarSync.json
 {
   "viewDefs": {
-    "recordDetail": "custom:views/<EntityName>/record/detail"
+    "recordDetail": "custom:views/calendarsync/record/detail"
   }
 }
 
