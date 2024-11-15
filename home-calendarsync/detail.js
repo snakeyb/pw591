@@ -1,4 +1,4 @@
-define('custom:views/calendarsync/record/detail', 'views/record/detail', function (Dep) {
+define('custom:views/<EntityName>/record/detail', 'views/record/detail', function (Dep) {
     return Dep.extend({
         setup: function () {
             Dep.prototype.setup.call(this);
@@ -12,17 +12,19 @@ define('custom:views/calendarsync/record/detail', 'views/record/detail', functio
         },
 
         openUrlAndUpdateRecord: function () {
-          
+            let url;
+
+            // Set URL based on externalCalendarType field value
             const externalCalendarType = this.model.get('externalCalendarType');
             if (externalCalendarType === 'Microsoft Exchange') {
-                url = this.model.get('msAuthUrl');
+                url = this.model.get('msAuthUrl'); // Replace 'msAuthUrl' with your actual field name for Microsoft Exchange
             } else if (externalCalendarType === 'Google') {
-                url = this.model.get('gAuthUrl');
+                url = this.model.get('gAuthUrl'); // Replace 'gAuthUrl' with your actual field name for Google
             } else {
                 this.notify('Unsupported calendar type.', 'error');
                 return;
             }
-          
+
             if (url) {
                 // Open the URL in a new tab
                 window.open(url, '_blank');
@@ -39,7 +41,7 @@ define('custom:views/calendarsync/record/detail', 'views/record/detail', functio
                         this.notify('Failed to update the record', 'error');
                     });
             } else {
-                this.notify('URL is not defined.', 'error');
+                this.notify('URL is not defined for the selected calendar type.', 'error');
             }
         }
     });
