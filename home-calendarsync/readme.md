@@ -12,3 +12,7 @@ Added the following to:
     "labels": {
       "Click here to authenticate": "Click here to authenticate"
     }
+
+
+Create the detail.js file here:
+/var/www/html/client/src/views/calendarsync/record/detail.js
