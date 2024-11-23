@@ -1,0 +1,83 @@
+{
+    "fields": {
+        "parent": {
+            "entityList": [
+                "Account",
+                "Lead",
+                "Contact",
+                "Opportunity",
+                "Case",
+                "Rooms",
+                "Finance",
+                "Services"
+            ]
+        },
+        "name": {
+            "options": []
+        },
+        "dateEnd": {
+            "minuteStep": 30
+        },
+        "dateStart": {
+            "minuteStep": 30
+        },
+        "reminders": {
+            "name": "reminders",
+            "type": "jsonArray",
+            "notStorable": true,
+            "view": "crm:views/meeting/fields/reminders",
+            "layoutListDisabled": true,
+            "validatorClassNameList": [
+                "Espo\\Modules\\Crm\\Classes\\FieldValidators\\Event\\Reminders\\Valid",
+                "Espo\\Modules\\Crm\\Classes\\FieldValidators\\Event\\Reminders\\MaxCount"
+            ],
+            "dynamicLogicVisible": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "notEquals",
+                                "attribute": "status",
+                                "value": "Held"
+                            },
+                            {
+                                "type": "notEquals",
+                                "attribute": "status",
+                                "value": "Not Held"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dynamicLogicReadOnly": {
+                "conditionGroup": [
+                    {
+                        "type": "contains",
+                        "attribute": "description",
+                        "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                    }
+                ]
+            },
+            "dynamicLogicInvalid": null,
+            "inlineEditDisabled": false,
+            "tooltip": false
+        },
+        "status": {
+            "style": {
+                "Planned": null,
+                "Held": "success",
+                "Not Held": null
+            }
+        }
+    },
+    "collection": {
+        "orderBy": "dateStart",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    }
+}

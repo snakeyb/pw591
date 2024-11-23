@@ -1,0 +1,147 @@
+{
+    "kanbanViewMode": true,
+    "color": null,
+    "iconClass": "fas fa-calendar-check",
+    "dynamicLogic": {
+        "fields": {
+            "name": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "contains",
+                            "attribute": "description",
+                            "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "contains",
+                            "attribute": "description",
+                            "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                        }
+                    ]
+                }
+            },
+            "dateEnd": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "contains",
+                            "attribute": "description",
+                            "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                        }
+                    ]
+                }
+            },
+            "dateStart": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "contains",
+                            "attribute": "description",
+                            "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                        }
+                    ]
+                }
+            },
+            "duration": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "contains",
+                                    "attribute": "description",
+                                    "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                                },
+                                {
+                                    "type": "isTrue",
+                                    "attribute": "isAllDay"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "reminders": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "and",
+                            "value": [
+                                {
+                                    "type": "notEquals",
+                                    "attribute": "status",
+                                    "value": "Held"
+                                },
+                                {
+                                    "type": "notEquals",
+                                    "attribute": "status",
+                                    "value": "Not Held"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "contains",
+                            "attribute": "description",
+                            "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                        }
+                    ]
+                }
+            },
+            "status": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "contains",
+                            "attribute": "description",
+                            "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                        }
+                    ]
+                }
+            },
+            "teams": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "contains",
+                            "attribute": "description",
+                            "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                        }
+                    ]
+                }
+            },
+            "parent": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "contains",
+                            "attribute": "description",
+                            "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                        }
+                    ]
+                }
+            },
+            "assignedUser": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "contains",
+                            "attribute": "description",
+                            "value": "Synchronised from an external calendar. Do not make changes to this in PropertyPipeline"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
