@@ -6,7 +6,7 @@ For help and FAQs, see the Help section [here](https://wolfandsword.kartra.com/p
 
 # Resources and Money Off Offers!
 
-For a selection of the resources we use day to day, and some money off offers for them, click [here](https://lm.wolfandsword.com/ppresourcesoffers).
+For a selection of helpful property resources, and some money off offers for them, click [here](https://lm.wolfandsword.com/ppresourcesoffers).
 
 # Support
 
