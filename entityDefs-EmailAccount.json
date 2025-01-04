@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "useImap": {
+            "type": "bool",
+            "default": false
+        },
+        "useSmtp": {
+            "type": "bool",
+            "default": true
+        }
+    }
+}

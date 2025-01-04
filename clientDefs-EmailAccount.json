@@ -1,0 +1,5 @@
+{
+    "recordViews": {
+        "edit": "custom:views/email-account/record/edit"
+    }
+}
