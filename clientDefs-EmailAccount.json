@@ -1,5 +1,110 @@
 {
     "recordViews": {
         "edit": "custom:views/email-account/record/edit"
+    },
+    "dynamicLogic": {
+        "fields": {
+
+            "fetchSince": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            },
+            "hosts": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            },
+            "security": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            },
+            "port": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            },
+            "username": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            },
+            "monitoredFolders": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            },
+            "password": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            },
+            "emailFolder": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            },
+            "keepFetchedEmailsUnread": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            },
+            "storeSentEmails": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            }
+        }
     }
 }
