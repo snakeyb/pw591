@@ -1,0 +1,5 @@
+{
+  "primaryFilterClassNameMap":{
+    "Live": "Espo\\Custom\\Classes\\Select\\Rooms\\PrimaryFilters\\Live"
+  }
+}

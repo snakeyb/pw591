@@ -1,0 +1,84 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "activities",
+                "label": "Activities",
+                "view": "crm:views/record/panels/activities",
+                "aclScope": "Activities"
+            },
+            {
+                "name": "history",
+                "label": "History",
+                "view": "crm:views/record/panels/history",
+                "aclScope": "Activities"
+            },
+            {
+                "name": "tasks",
+                "label": "Tasks",
+                "view": "crm:views/record/panels/tasks",
+                "aclScope": "Task"
+            }
+        ]
+    },
+    "color": "#b88de3",
+    "iconClass": "fas fa-bed",
+    "kanbanViewMode": false,
+    "dynamicLogic": {
+        "fields": {
+            "monthlyRate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "rentFrequency",
+                            "value": "Monthly"
+                        }
+                    ]
+                }
+            },
+            "weeklyRate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "rentFrequency",
+                            "value": "Weekly"
+                        }
+                    ]
+                }
+            },
+            "rentDueDateOfMonth": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "rentFrequency",
+                            "value": "Monthly"
+                        }
+                    ]
+                }
+            },
+            "rentDueDay": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "rentFrequency",
+                            "value": "Weekly"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "filterList": [
+      {
+        "name": "Live"
+      }
+    ]
+}
