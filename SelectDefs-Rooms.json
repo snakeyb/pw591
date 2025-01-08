@@ -1,5 +1,6 @@
 {
   "primaryFilterClassNameMap":{
-    "Live": "Espo\\Custom\\Classes\\Select\\Rooms\\PrimaryFilters\\Live"
+    "Live": "Espo\\Custom\\Classes\\Select\\Rooms\\PrimaryFilters\\Live",
+    "All Tenancies": "Espo\\Custom\\Classes\\Select\\Rooms\\PrimaryFilters\\All" 
   }
 }
