@@ -78,7 +78,8 @@
     },
     "filterList": [
       {
-        "name": "Live"
+        "name": "Live",
+        "name": "All"
       }
     ]
 }
