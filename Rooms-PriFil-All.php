@@ -9,7 +9,7 @@ class All implements Filter
     public function apply(SelectBuilder $queryBuilder): void
     {
         $queryBuilder->where([
-          [true => true]
+          'OR' => [['let' => true],['let' => false]]
         ]);
     }
 }
