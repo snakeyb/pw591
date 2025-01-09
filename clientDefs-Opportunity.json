@@ -1,0 +1,195 @@
+{
+    "kanbanViewMode": true,
+    "color": "#9fc77e",
+    "iconClass": "fas fa-home",
+    "dynamicLogic": {
+        "fields": {
+            "primaryStrategy": {
+                "visible": null
+            },
+            "contacts": {
+                "visible": null
+            },
+            "sellingAgent": {
+                "visible": null
+            },
+            "toDo": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "showToDo"
+                        }
+                    ]
+                }
+            },
+            "leaseExpires": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "titleType",
+                            "value": "Leasehold"
+                        }
+                    ]
+                }
+            }
+        },
+        "options": {
+            "toDo": [
+                {
+                    "optionList": [
+                        "EPC produced and filed",
+                        "Gas safety completed",
+                        "Electrical safety completed",
+                        "Insurance",
+                        "Water set up",
+                        "Gas set up",
+                        "Electricity set up",
+                        "Council tax set up",
+                        "Applied for business rates",
+                        "Broadband set up",
+                        "Cleaner relationship in place"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "primaryStrategy",
+                                    "value": "SA"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "primaryStrategy",
+                                    "value": "SA (social)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "optionList": [
+                        "EPC produced and filed",
+                        "Gas safety completed",
+                        "Electrical safety completed",
+                        "Insurance",
+                        "Water set up",
+                        "Gas set up",
+                        "Electricity set up",
+                        "Council tax set up",
+                        "Survey booked"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "primaryStrategy",
+                                    "value": "BTL"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "primaryStrategy",
+                                    "value": "BTL (social)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "optionList": [
+                        "EPC produced and filed",
+                        "Gas safety completed",
+                        "Electrical safety completed",
+                        "Insurance",
+                        "Water set up",
+                        "Gas set up",
+                        "Electricity set up",
+                        "Council tax set up",
+                        "Broadband set up",
+                        "Cleaner relationship in place",
+                        "Survey booked"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "or",
+                            "value": [
+                                {
+                                    "type": "equals",
+                                    "attribute": "primaryStrategy",
+                                    "value": "HMO"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "primaryStrategy",
+                                    "value": "HMO (social)"
+                                },
+                                {
+                                    "type": "equals",
+                                    "attribute": "primaryStrategy",
+                                    "value": "HMO (bedsits)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "optionList": [
+                        "EPC produced and filed",
+                        "Gas safety completed",
+                        "Electrical safety completed",
+                        "Insurance",
+                        "Water set up",
+                        "Gas set up",
+                        "Electricity set up",
+                        "Council tax set up",
+                        "Survey booked"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "primaryStrategy",
+                            "value": "Flip"
+                        }
+                    ]
+                },
+                {
+                    "optionList": [
+                        "EPC produced and filed",
+                        "Gas safety completed",
+                        "Electrical safety completed",
+                        "Insurance",
+                        "Water set up",
+                        "Gas set up",
+                        "Electricity set up",
+                        "Council tax set up",
+                        "Applied for business rates",
+                        "Broadband set up",
+                        "Cleaner relationship in place",
+                        "Survey booked"
+                    ],
+                    "conditionGroup": [
+                        {
+                            "type": "in",
+                            "attribute": "primaryStrategy",
+                            "value": [
+                                "Care Home",
+                                "Childrens Home",
+                                "Supported Accommodation"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "relationshipPanels": {
+      "rooms": {
+        "filterList": ["Live","All Tenancies"],
+        "selectPrimaryFilterName": "Live"
+      }
+    }
+}
