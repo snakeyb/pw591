@@ -2,11 +2,7 @@ By using this system you agree to the [Terms of Service](https://lm.propertypipe
 
 # Help
 
-For help and FAQs, see the Help section [here](https://wolfandsword.kartra.com/portal/nK48O1cTRg9c/index).
-
-# Access to PropertyPipeline Advanced and Ultimate features
-
-If you have Advanced or Ultimate, access the additional features on the Product Management portal [here](https://home.wspp.co.uk)
+For help and **FAQs**, see the Help section [here](https://wolfandsword.kartra.com/portal/nK48O1cTRg9c/index).
 
 # Resources and Money Off Offers!
 
