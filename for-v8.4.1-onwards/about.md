@@ -1,8 +1,7 @@
-By using this system you agree to the [Terms of Service](https://lm.propertypipeline.co.uk/pp-terms) and the [Privacy Policy](https://lm.propertypipeline.co.uk/pp-privacy).
 
 # Help
 
-For help and **FAQs**, see the Help section [here](https://wolfandsword.kartra.com/portal/nK48O1cTRg9c/index).
+For help and FAQs, see the Help section [here](https://wolfandsword.kartra.com/portal/nK48O1cTRg9c/index).
 
 # Resources and Money Off Offers!
 
@@ -26,7 +25,9 @@ Click [here](https://d11n7da8rpqbjy.cloudfront.net/wolfandsword/30954524_1725343
 
 ### PropertyPipeline: Built for property investors by Wolf and Sword Services. Proudly helping fellow property investors since 2020.
 
-© 2020-2024  
+By using this system and any associated services from Wolf and Sword Services Limited you agree to the [Terms of Service](https://lm.propertypipeline.co.uk/pp-terms) and the [Privacy Policy](https://lm.propertypipeline.co.uk/pp-privacy).
+
+© 2020-2025  
 
 The PropertyPipeline platform and associated customisations are proprietary and have been developed by Wolf and Sword Services to provide a dedicated hosted property lead and portfolio management platform for property investors. 
 
