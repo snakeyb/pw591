@@ -1,3 +1,6 @@
+# Rightmove and Zoopla Browser Extension
+
+Click [here](https://chrome.google.com/webstore/detail/ohcppfendpbhmfglpplncapbbfjbmdho) to install the PropertyPipeline browser extension that allows you to send Rightmove and Zoopla listings into PropertyPipeline as new Leads. Requires an Advanced or Ultimate subscription.
 
 # Help
 
