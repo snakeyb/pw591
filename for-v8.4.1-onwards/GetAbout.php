@@ -64,7 +64,7 @@ class GetAbout implements Action
 
         // Append user info and host part to the text
         $featureSettingsLoginText = sprintf(
-            "# Access to PropertyPipeline Advanced and Ultimate features\n\nIf you have Advanced or Ultimate, access the additional features on the Feature Settings portal [here](https://home.wspp.co.uk)\n\n**If this is the first time you are accessing the Features Settings Portal, click [here](https://mgmtdocker.wspp.co.uk/webhook/77c267b3-8c5d-4f2b-9af0-e21be80881e8?uid=%s.%s.%s) to have your login details emailed to you.** NB: They are different to your PropertyPipeline login.\n\n",
+            "# Access to PropertyPipeline Advanced and Ultimate features\n\nIf you have Advanced or Ultimate, access the additional features on the Feature Settings portal [here](https://home.wspp.co.uk)\n\n**If this is the first time you are accessing the Feature Settings Portal, click [here](https://mgmtdocker.wspp.co.uk/webhook/77c267b3-8c5d-4f2b-9af0-e21be80881e8?uid=%s.%s.%s) to have your login details emailed to you.** NB: They are different to your PropertyPipeline login.\n\n",
             htmlspecialchars($firstName),
             htmlspecialchars($lastName),
             htmlspecialchars($hostPart)
