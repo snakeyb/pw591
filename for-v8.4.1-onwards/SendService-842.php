@@ -440,7 +440,7 @@ class SendService
         $email = $this->entityManager->getNewEntity(Email::ENTITY_TYPE);
 
         $email
-            ->setSubject('EspoCRM: Test Email')
+            ->setSubject('PropertyPipeline: Test Email')
             ->setIsHtml(false)
             ->addToAddress($emailAddress);
 
