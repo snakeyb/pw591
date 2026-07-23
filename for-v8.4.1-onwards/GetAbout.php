@@ -62,6 +62,45 @@ class GetAbout implements Action
         $host = parse_url($siteUrl, PHP_URL_HOST);
         $hostPart = explode('.', $host)[0]; // Get the first part (e.g., 'demo' from 'demo.wspp.co.uk')
 
+	// Create a short-lived, one-time assertion for the logged-in user. The signing
+// secret stays on the PropertyPipeline server and is never sent to the browser.
+$mcpSecretBase64 = (string) $this->config->get('mcpAuthorizationSecret');
+$mcpSecret = base64_decode($mcpSecretBase64, true);
+$currentUserId = (string) $this->currentUser->getId();
+$canonicalHost = strtolower(rtrim((string) $host, '.'));
+
+$mcpAuthorizationText = "## Connect an AI assistant\n\nMCP authorization is not configured for this instance. Contact PropertyPipeline support.\n\n";
+
+if ($mcpSecret !== false && strlen($mcpSecret) === 32 && $currentUserId !== '' && $canonicalHost !== '') {
+    $base64UrlEncode = static function (string $value): string {
+        return rtrim(strtr(base64_encode($value), '+/', '-_'), '=');
+    };
+
+    $issuedAt = time();
+    $payload = [
+        'v' => 1,
+        'iss' => $canonicalHost,
+        'sub' => $currentUserId,
+        'aud' => 'propertypipeline-mcp',
+        'iat' => $issuedAt,
+        'exp' => $issuedAt + 300,
+        'jti' => $base64UrlEncode(random_bytes(18)),
+    ];
+
+    $payloadJson = json_encode($payload, JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR);
+    $payloadEncoded = $base64UrlEncode($payloadJson);
+    $signature = hash_hmac('sha256', $payloadEncoded, $mcpSecret, true);
+    $assertion = $payloadEncoded . '.' . $base64UrlEncode($signature);
+    $authorizationUrl = 'https://pp-mcp.nick-osborn.workers.dev/authorize/pp-confirm#assertion=' . $assertion;
+
+    $mcpAuthorizationText = sprintf(
+        "## Connect an AI assistant\n\nTo approve a secure connection using your current PropertyPipeline access, [click here](%s). This link expires in five minutes and works once.\n\n",
+        $authorizationUrl
+    );
+}
+
+
+
         // Append user info and host part to the text
         $featureSettingsLoginText = sprintf(
             "# Access to PropertyPipeline Advanced and Ultimate features\n\nIf you have Advanced or Ultimate, access the additional features on the Feature Settings portal [here](https://home.wspp.co.uk)\n\n**If this is the first time you are accessing the Feature Settings Portal, click [here](https://mgmtdocker.wspp.co.uk/webhook/77c267b3-8c5d-4f2b-9af0-e21be80881e8?uid=%s.%s.%s) to have your login details emailed to you.** NB: They are different to your PropertyPipeline login.\n\n",
@@ -71,7 +110,7 @@ class GetAbout implements Action
         );
 
         // Prepend the new text to the original text
-        $text = $featureSettingsLoginText . $text;
+        $text = $mcpAuthorizationText . $featureSettingsLoginText . $text;
 
         return ResponseComposer::json([
             'text' => $text,
